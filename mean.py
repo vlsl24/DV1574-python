@@ -13,4 +13,4 @@ y=float(input())
 #calls mean function
 print(mean(x,y))
 
-"\n" 
+
