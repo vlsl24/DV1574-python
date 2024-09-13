@@ -1,5 +1,8 @@
 .venv
-.-life
+.life
 .text
-.DS_Store
-.DS_Store
+life/gameOLife.py
+life/grid.py
+life/life_game.py
+life/life.py
+text
