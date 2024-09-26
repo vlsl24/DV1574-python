@@ -1,8 +1,11 @@
 import random
 intList = []
+n=10
+r=100
 i=0
-while (i <11):
-    var=random.randint(0,1000)
+
+while (i <n):
+    var=random.randint(0,r)
 
     if var not in intList:
         intList.append(var)
@@ -16,7 +19,7 @@ def bubbleSort():
  sorting = 1
  iterator=0
  while(sorting):
-   for i in range(0,10):
+   for i in range(0,n-1):
       if x[i]>x[i+1]:
          y=x[i+1]
          x[i+1]=x[i]
