@@ -1,7 +1,7 @@
 import random
 intList = []
 n=10
-r=100
+r=11
 i=0
 
 while (i <n):

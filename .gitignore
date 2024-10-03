@@ -6,3 +6,4 @@ life/grid.py
 life/life_game.py
 life/life.py
 text
+FileManager/sonnets.txt
