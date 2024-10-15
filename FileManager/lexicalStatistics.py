@@ -3,7 +3,7 @@ from collections import Counter
 file=open("FileManager/sonnets.txt","r")
 text=str(file.read())
 text=text.lower()
-
+dictionary={}
 def letterCount(string):
     letter_dict={}
     for letter in string:
@@ -21,7 +21,9 @@ def wordCount(string):
             word_dict[i]=1
         
         else:
-            word_dict[i]+=1    
+            word_dict[i]+=1 
+            
+    dictionary=word_dict           
 
 
 
@@ -34,10 +36,10 @@ for i in range(0,len(text)):
   text=text.replace("'","")
   
 
-listified=text.split()
+wordCount(text)
 
-print(wordCount(text))
-wordCount =Counter(listified)  
+for i in dictionary:
+    print(i)
 
 
 
